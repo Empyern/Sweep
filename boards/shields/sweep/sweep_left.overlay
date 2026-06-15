@@ -1,1 +1,2 @@
 #include "sweep.dtsi"
+/ { chosen { zmk,esb-self = &left; }; };
