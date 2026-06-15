@@ -32,8 +32,9 @@
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
-    };
-	
+    };	
+};
+    
     &pro_micro_i2c {
         status = "okay";
         
@@ -51,4 +52,3 @@
             inversion-on;
             prechargep = <0x22>;
         };
-    };
