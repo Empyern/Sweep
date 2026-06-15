@@ -49,7 +49,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "DEFAULT";
+            display-name = "DEF";
             bindings = <
 &kp B             &kp L        &kp D           &kp W           &kp Z        &kp SINGLE_QUOTE  &kp F  &kp O                &kp U             &kp J
 &kp N             &kp R        &kp T           &kp S           &kp G        &kp Y             &kp H  &kp A                &kp E             &kp I
