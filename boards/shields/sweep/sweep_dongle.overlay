@@ -23,7 +23,6 @@
         reg = <0x3c>;
         width = <128>;
         height = <64>;
-        contrast = <125>;
         segment-offset = <2>;
     	page-offset = <0>;
     	display-offset = <0>;
