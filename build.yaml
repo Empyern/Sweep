@@ -14,7 +14,7 @@ include:
 - board: nice_nano//zmk
   shield: sweep_left
   cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
-  artifact-name: sweep_peripheral_left
+  artifact-name: sweep_central_left
 - board: nice_nano//zmk
   shield: sweep_right
   artifact-name: sweep_peripheral_right
