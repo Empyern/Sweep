@@ -13,5 +13,5 @@ include:
   shield: sweep_right
 - board: nice_nano//zmk
   shield: settings_reset
-- board: pro_micro_i2c
+- board: xiao_ble//zmk
   shield: sweep_dongle dongle_display
