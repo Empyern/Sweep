@@ -1,14 +1,3 @@
-if SHIELD_SWEEP_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default "Sweep"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif 
-
-
 if SHIELD_SWEEP_LEFT || SHIELD_SWEEP_RIGHT || SHIELD_SWEEP_DONGLE
 
 config ZMK_SPLIT
@@ -46,7 +35,7 @@ if ZMK_DISPLAY
 config I2C
     default y
 
-config SSD1306
+config SH1106
     default y
 
 choice ZMK_DISPLAY_WORK_QUEUE
